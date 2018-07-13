@@ -6,10 +6,12 @@ Medium green: #55c57a
 Dark green: #28b485
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
@@ -18,12 +20,14 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-family: "lato", sans-serif;
     font-weight: 400;
     /*font-size: 16px;*/
     line-height: 1.7;
     color: #777;
-    padding: 3rem}
+    padding: 3rem
+}
 
 .header {
     position: relative;
@@ -33,17 +37,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -59,7 +63,7 @@ body {
     /*спасает от трясучки элемента которая может возникнуть в связи с применением анимации*/
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -69,7 +73,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -141,7 +145,7 @@ body {
 
 }
 
-.btn-white {
+.btn--white {
     color: #777777;
     background-color: #fff;
 }
@@ -162,11 +166,11 @@ body {
     opacity: 0;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
