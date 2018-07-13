@@ -66,8 +66,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 6rem;
-    backface-visibility: hidden;
-    /*спасает от трясучки элемента которая может возникнуть в связи с применением анимации*/
+    backface-visibility: hidden; //спасает от трясучки элемента которая может возникнуть в связи с применением анимации
 }
 
 .heading-primary--main {
