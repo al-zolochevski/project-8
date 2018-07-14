@@ -10,6 +10,9 @@ $color-primary: #7ed56f;
 $color-primary-light: #55c57a;
 $color-primary-dark: #28b485;
 
+$color-grey-dark: #777777;
+$color-white: #ffffff;
+
 *,
 *::after,
 *::before {
@@ -29,7 +32,7 @@ body {
     font-weight: 400;
     /*font-size: 16px;*/
     line-height: 1.7;
-    color: #777;
+    color: $color-grey-dark;
     padding: 3rem
 }
 
@@ -152,8 +155,8 @@ body {
 }
 
 .btn--white {
-    color: #777777;
-    background-color: #fff;
+    color:$color-grey-dark;
+    background-color: $color-white;
 }
 
 .btn::after {
@@ -175,7 +178,7 @@ body {
 }
 
 .btn--white::after {
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 .btn--animated {
