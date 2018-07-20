@@ -4,7 +4,6 @@
     <list default="true" id="9f7177b1-99e1-43ea-b8d1-5941d619765e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/components/_story.scss" afterPath="$PROJECT_DIR$/sass/components/_story.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="241" column="8" lean-forward="false" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+            <state relative-caret-position="261">
+              <caret line="241" column="9" lean-forward="false" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="14" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2224#2230#0" expanded="true" />
@@ -31,7 +30,7 @@
                 <element signature="e#5508#5514#0" expanded="true" />
                 <element signature="e#7033#7039#0" expanded="true" />
                 <element signature="e#8558#8564#0" expanded="true" />
-                <element signature="e#12231#12237#0" expanded="true" />
+                <element signature="e#12374#12380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +145,11 @@
             <path>
               <item name="project-8" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-8" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-8" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,7 +213,7 @@
       <updated>1531205401690</updated>
       <workItem from="1531205404879" duration="23039000" />
       <workItem from="1531469980681" duration="28932000" />
-      <workItem from="1531824674424" duration="50048000" />
+      <workItem from="1531824674424" duration="50231000" />
     </task>
     <task id="LOCAL-00001" summary="add complex animate btn">
       <created>1531392571196</created>
@@ -358,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532093655376</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="+ add second block to story-section, add btn-text">
+      <created>1532094387612</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532094387612</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102019000" />
+    <option name="totallyTimeSpent" value="102202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -416,7 +427,8 @@
     <MESSAGE value="+ add section &quot;story&quot;" />
     <MESSAGE value="+ stylized &quot;story-shape&quot;block" />
     <MESSAGE value="+ add blur hover effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ add blur hover effect" />
+    <MESSAGE value="+ add second block to story-section, add btn-text" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ add second block to story-section, add btn-text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -435,7 +447,7 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12231#12237#0" expanded="true" />
+            <element signature="e#12374#12380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -476,7 +488,7 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12231#12237#0" expanded="true" />
+            <element signature="e#12374#12380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -686,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="241" column="8" lean-forward="false" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        <state relative-caret-position="261">
+          <caret line="241" column="9" lean-forward="false" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="14" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2224#2230#0" expanded="true" />
@@ -696,7 +708,7 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12231#12237#0" expanded="true" />
+            <element signature="e#12374#12380#0" expanded="true" />
           </folding>
         </state>
       </provider>
