@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7177b1-99e1-43ea-b8d1-5941d619765e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/components/_bg-video.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/_home.scss" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="241" column="9" lean-forward="false" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="14" />
+              <caret line="241" column="70" lean-forward="false" selection-start-line="241" selection-start-column="70" selection-end-line="241" selection-end-column="70" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2224#2230#0" expanded="true" />
@@ -30,17 +34,27 @@
                 <element signature="e#5508#5514#0" expanded="true" />
                 <element signature="e#7033#7039#0" expanded="true" />
                 <element signature="e#8558#8564#0" expanded="true" />
-                <element signature="e#12374#12380#0" expanded="true" />
+                <element signature="e#12394#12400#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_story.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/components/_story.scss">
+      <file leaf-file-name="_bg-video.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/components/_bg-video.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/pages/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -92,11 +106,12 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/sass/components/_card.scss" />
         <option value="$PROJECT_DIR$/sass/components/_button.scss" />
-        <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/sass/base/_utilities.scss" />
         <option value="$PROJECT_DIR$/sass/components/_story.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/sass/components/_bg-video.scss" />
+        <option value="$PROJECT_DIR$/sass/pages/_home.scss" />
       </list>
     </option>
   </component>
@@ -179,7 +194,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="u&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_utilities.scss&#10;ma&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/main.scss&#10;home&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/pages/_home.scss&#10;butt&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_button.scss&#10;but&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_button.scss&#10;btn&#9;null&#9;null&#10;vari&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/abstracts/_variables.scss&#10;car&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_card.scss&#10;card&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_card.scss&#10;mai&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/css/main.css&#10;ho&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/pages/_home.scss&#10;grid&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_grid.scss&#10;header&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_header.scss&#10;uti&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_utilities.scss&#10;gr&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_grid.scss&#10;ty&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_typography.scss&#10;varia&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/abstracts/_variables.scss&#10;css&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/css/main.css&#10;anim&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_animations.scss&#10;base&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_base.scss" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/pages/_home.scss&#10;u&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_utilities.scss&#10;ma&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/main.scss&#10;butt&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_button.scss&#10;but&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_button.scss&#10;btn&#9;null&#9;null&#10;vari&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/abstracts/_variables.scss&#10;car&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_card.scss&#10;card&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/components/_card.scss&#10;mai&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/css/main.css&#10;ho&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/pages/_home.scss&#10;grid&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_grid.scss&#10;header&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_header.scss&#10;uti&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_utilities.scss&#10;gr&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/layout/_grid.scss&#10;ty&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_typography.scss&#10;varia&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/abstracts/_variables.scss&#10;css&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/css/main.css&#10;anim&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_animations.scss&#10;base&#9;FILE&#9;file://E:/code/experiments/tutorials-verstka/8/project-8/sass/base/_base.scss" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -213,7 +228,7 @@
       <updated>1531205401690</updated>
       <workItem from="1531205404879" duration="23039000" />
       <workItem from="1531469980681" duration="28932000" />
-      <workItem from="1531824674424" duration="50231000" />
+      <workItem from="1531824674424" duration="50779000" />
     </task>
     <task id="LOCAL-00001" summary="add complex animate btn">
       <created>1531392571196</created>
@@ -369,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532094387612</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="+ add video tag and source in HTML">
+      <created>1532094538840</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532094538840</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102202000" />
+    <option name="totallyTimeSpent" value="102750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -428,7 +450,8 @@
     <MESSAGE value="+ stylized &quot;story-shape&quot;block" />
     <MESSAGE value="+ add blur hover effect" />
     <MESSAGE value="+ add second block to story-section, add btn-text" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ add second block to story-section, add btn-text" />
+    <MESSAGE value="+ add video tag and source in HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ add video tag and source in HTML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -447,7 +470,7 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12374#12380#0" expanded="true" />
+            <element signature="e#12394#12400#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,7 +511,7 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12374#12380#0" expanded="true" />
+            <element signature="e#12394#12400#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,22 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_utilities.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -662,28 +669,28 @@
         <state relative-caret-position="191">
           <caret line="455" column="3" lean-forward="false" selection-start-line="455" selection-start-column="3" selection-end-line="455" selection-end-column="3" />
           <folding>
-            <marker date="1532093680645" expanded="true" signature="14054:14060" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="15734:15737" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="15747:16461" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16482:16540" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16557:16580" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16601:16807" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16814:16856" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16881:16909" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="16924:16981" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17005:17025" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17068:17097" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17117:17156" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17176:17219" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17239:17295" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17315:17358" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17378:17434" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17454:17514" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17531:17598" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="17618:18301" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="18337:18436" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="18453:18527" ph="{...}" />
-            <marker date="1532093680645" expanded="true" signature="18546:18592" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="14054:14060" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="15734:15737" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="15836:16550" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="16571:16629" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="16646:16669" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="16690:16896" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="16903:16945" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="16970:16998" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17013:17070" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17094:17114" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17157:17186" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17206:17245" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17265:17308" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17328:17384" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17404:17447" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17467:17523" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17543:17603" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17620:17687" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="17707:18390" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="18426:18525" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="18542:18616" ph="{...}" />
+            <marker date="1532095004286" expanded="true" signature="18635:18703" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -699,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="241" column="9" lean-forward="false" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="14" />
+          <caret line="241" column="70" lean-forward="false" selection-start-line="241" selection-start-column="70" selection-end-line="241" selection-end-column="70" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2224#2230#0" expanded="true" />
@@ -708,8 +715,32 @@
             <element signature="e#5508#5514#0" expanded="true" />
             <element signature="e#7033#7039#0" expanded="true" />
             <element signature="e#8558#8564#0" expanded="true" />
-            <element signature="e#12374#12380#0" expanded="true" />
+            <element signature="e#12394#12400#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_bg-video.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
