@@ -25,17 +25,18 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradient($color-primary-dark, $color-primary-light 20%);
-        transform: scale(100);
+        background-image: radial-gradient($color-primary-light 20%, $color-primary-dark);
+        transition:  transform .8s cubic-bezier(.86,0,.07,1);
     }
 
     &__nav {
         height: 100vh;
-        width: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 2;
+        opacity: 0;
+        width: 0%;
+        transition: all .8s cubic-bezier(.68,-0.55,.265,1.55);
     }
 
     &__list {
@@ -54,22 +55,38 @@
     &__link {
         &:link,
         &:visited {
+            display: inline-block;
             font-size: 3rem;
             font-weight: 300;
             padding: 1rem 2rem;
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
-            background-image: linear-gradient(120deg, orangered 0%, orangered 50%, $color-white 50%);
-            background-size: 200%;
+            background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
+            background-size: 220%;
             transition:  all .4s;
+
+            span {
+                margin-right: 1.5rem;
+                display: inline-block;
+            }
         }
 
         &:hover,
         &:active {
             background-position: 100%;
-
+            color: $color-primary;
+            transform: translateX(1rem);
         }
     }
 
+    &__checkbox:checked ~ &__background {
+        transform: scale(100);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        width: 100%;
+        opacity: 1;
+        z-index: 2;
+    }
 }
