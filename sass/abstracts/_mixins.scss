@@ -4,17 +4,15 @@
         display: table;
         clear: both;
     }
-    
+
 }
 
-@mixin  absCenter {
+@mixin absCenter {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-
-
 
 // MEDIA QUERY MANAGER
 
@@ -37,33 +35,32 @@ $breakpoint argument choices:
 
  */
 
-@mixin respond($brealpoint) {
-
-    @if ($brealpoint == phone) {
-        @media (max-width: 37.5em) {
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) {
             @content
         }
-    ;
+    ; //600px
     }
 
-    @if ($brealpoint == tab-port) {
-        @media (max-width: 56.25em) {
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) {
             @content
         }
-    ;
+    ; //900px
     }
 
-    @if ($brealpoint == tab-land) {
-        @media (max-width: 75em) {
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) {
             @content
         }
-    ;
+    ; //1200px
     }
 
-    @if ($brealpoint == big-desktop) {
-        @media (max-width: 112.5em) {
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) {
             @content
         }
-    ;
+    ; //1800
     }
 }
