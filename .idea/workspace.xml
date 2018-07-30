@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f7177b1-99e1-43ea-b8d1-5941d619765e" name="Default" comment="+ change row-width and add gutters (for tablet resolution)">
+    <list default="true" id="9f7177b1-99e1-43ea-b8d1-5941d619765e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/sass/layout/_header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -257,7 +256,7 @@
       <workItem from="1532600040668" duration="4773000" />
       <workItem from="1532607723759" duration="595000" />
       <workItem from="1532622550346" duration="16931000" />
-      <workItem from="1532934675351" duration="13512000" />
+      <workItem from="1532934675351" duration="13864000" />
     </task>
     <task id="LOCAL-00001" summary="add complex animate btn">
       <created>1531392571196</created>
@@ -553,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532957300021</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="+ change clip-path for heading bg (tablet resolution)">
+      <created>1532959098368</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1532959098368</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182786000" />
+    <option name="totallyTimeSpent" value="183138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +624,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="+ add and stylized green button" />
     <MESSAGE value="+ add section &quot;story&quot;" />
     <MESSAGE value="+ stylized &quot;story-shape&quot;block" />
     <MESSAGE value="+ add blur hover effect" />
@@ -643,7 +648,8 @@
     <MESSAGE value="+ add respond font-size for all screens resolutions" />
     <MESSAGE value="+ add respond css to typography" />
     <MESSAGE value="+ change row-width and add gutters (for tablet resolution)" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ change row-width and add gutters (for tablet resolution)" />
+    <MESSAGE value="+ change clip-path for heading bg (tablet resolution)" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ change clip-path for heading bg (tablet resolution)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1117,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>
