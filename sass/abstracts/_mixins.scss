@@ -20,7 +20,6 @@
 
 /*
 
-
 0 - 600px:     Phone
 600 - 900px:   Tablet portraint
 900 - 1200px:  Tablet landscape
@@ -29,6 +28,42 @@
 1800px + :     Big desctop
 
 
+$breakpoint argument choices:
+
+- phone
+- tab-port
+- tab-land
+- big-desctop
+
  */
 
+@mixin respond($brealpoint) {
 
+    @if ($brealpoint == phone) {
+        @media (max-width: 37.5em) {
+            @content
+        }
+    ;
+    }
+
+    @if ($brealpoint == tab-port) {
+        @media (max-width: 56.25em) {
+            @content
+        }
+    ;
+    }
+
+    @if ($brealpoint == tab-land) {
+        @media (max-width: 75em) {
+            @content
+        }
+    ;
+    }
+
+    @if ($brealpoint == big-desktop) {
+        @media (max-width: 112.5em) {
+            @content
+        }
+    ;
+    }
+}
