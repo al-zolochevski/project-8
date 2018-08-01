@@ -77,5 +77,10 @@
             width: 100%;
             float: none;
         }
+
+        @include respond(phone) {
+            width: 100%;
+            text-align: center;
+        }
     }
 }
