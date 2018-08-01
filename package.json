@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/al-zolochevski/project-8#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
     "live-server": "^1.2.0"
   },
   "devDependencies": {
