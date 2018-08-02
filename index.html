@@ -19,7 +19,7 @@
     <label for="navi-toggle" class="navigation__button">
         <span class="navigation__icon">&nbsp;</span>
     </label>
-
+    
     <div class="navigation__background">&nbsp;</div>
     
     <nav class="navigation__nav">
@@ -101,12 +101,24 @@
                 </a>
             </div>
             <div class="col-1-of-2">
-                <div class="composition"><img src="img/nat-1-large.jpg" alt=""
-                                              class="composition__photo composition__photo--pic1"></div>
-                <div class="composition"><img src="img/nat-2-large.jpg" alt=""
-                                              class="composition__photo composition__photo--pic2"></div>
-                <div class="composition"><img src="img/nat-3-large.jpg" alt=""
-                                              class="composition__photo composition__photo--pic3"></div>
+                <div class="composition">
+        
+                    <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                         sizes="(max-width: 900px 20vw, (max-width: 600px) 30vw" alt="ph-1"
+                         class="composition__photo composition__photo--pic1"
+                         src="img/nat-1-large.jpg">
+        
+                    <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                         sizes="(max-width: 900px 20vw, (max-width: 600px) 30vw" alt="ph-2"
+                         class="composition__photo composition__photo--pic2"
+                         src="img/nat-2-large.jpg">
+        
+                    <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                         sizes="(max-width: 900px 20vw, (max-width: 600px) 30vw" alt="ph-3"
+                         class="composition__photo composition__photo--pic3"
+                         src="img/nat-3-large.jpg">
+    
+                </div>
             </div>
         </div>
     </section>
@@ -347,17 +359,17 @@
                                 Start booking now
                             </h2>
                         </div>
-
+    
                         <div class="form__group">
                             <input type="text" class="form__input" placeholder="Full name" id="name" required>
                             <label for="name" class="form__label">Full name</label>
                         </div>
-
+    
                         <div class="form__group">
                             <input type="email" class="form__input" placeholder="Email address" id="email" required>
                             <label for="email" class="form__label">Email address</label>
                         </div>
-
+    
                         <div class="form__group u-margin-bottom-medium">
                             <div class="form__radio-group">
                                 <input type="radio" class="form__radio-input" id="small" name="size">
@@ -366,7 +378,7 @@
                                     Small tour group
                                 </label>
                             </div>
-
+        
                             <div class="form__radio-group">
                                 <input type="radio" class="form__radio-input" id="large" name="size">
                                 <label for="large" class="form__radio-label">
@@ -375,7 +387,7 @@
                                 </label>
                             </div>
                         </div>
-
+    
                         <div class="form__group">
                             <button for="#popup" class="btn btn--green">Next step &rarr;</button>
                         </div>
@@ -388,7 +400,12 @@
 
 <footer class="footer">
     <div class="footer__logo-box">
-        <img class="footer__logo" src="img/logo-green-2x.png" alt="">
+    
+        <picture class="footer__logo">
+            <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+            <img class="footer__logo" srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="">
+        </picture>
+
     </div>
     <div class="row">
         <div class="col-1-of-2">
